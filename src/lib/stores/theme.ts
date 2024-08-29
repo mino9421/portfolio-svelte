@@ -1,5 +1,6 @@
 import { browser } from '$app/environment';
 import { writable } from 'svelte/store';
+import bg from '$lib/assets/bg.jpg';
 
 const key = '@riadh-adrani-theme';
 
@@ -28,13 +29,15 @@ export const onHydrated = () => {
 	if (!fromStore) {
 		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			// dark mode
-			toggleTheme(false);
+			toggleTheme(true);
 		}
 		else {
 			// light mode
-			toggleTheme(true);
+			toggleTheme(false);
 		}
 	} else {
 		toggleTheme(JSON.parse(fromStore));
 	}
+
+	window.document.body.style.backgroundImage = `url(${bg})`;
 };

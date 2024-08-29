@@ -8,6 +8,13 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	GB: a('gb.png'),
+	Seneca: a('seneca.png'),
+	Lam: a('lam.png'),
+	Mskh: a('mskh.jpg'),
+	ADP: a('adp.png'),
+	Inone: a('inone.jpg'),
+	Avante: a('avante.png'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -70,7 +77,24 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Ucod: a('ucod.svg'),
+	Azure: a('azur.svg'),
+	brain: a('brain-academy.jpg'),
+	Cihub: a('cihub.webp'),
+	fastify: a('fastify.svg'),
+	gradio: a('gradio.svg'),
+	hono: a('hono.svg'),
+	hstech: a('hstech.svg'),
+	loup: a('loup.svg'),
+	neo4j: a('neo4j.svg'),
+	playwright: a('playwright.svg'),
+	prisma: a('prisma.svg'),
+	recursive: a('recursive.svg'),
+	remix: a('remix.svg'),
+	rust: a('rust.svg'),
+	trello: a('trello.svg'),
+	triweb: a('triweb.svg'),
 };
 
 export default Assets;

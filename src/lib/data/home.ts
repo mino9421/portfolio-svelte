@@ -8,7 +8,7 @@ export const name = 'Armen';
 export const lastName = 'Uzunian';
 
 export const description =
-	"A Polymath and Software Engineer driven by a passion for learning and problem-solving. I thrive on questioning the deepest details to find the simplest answers, applying logic and rationality both in my work and in life. Whether I'm developing innovative applications, snowboarding in the winter, or jet skiing in the summer, I bring curiosity and a love for exploration to everything I do.";
+	"Polymath and Software Engineer dedicated to mastering complex problems through logic and precision. I bring relentless curiosity and disciplined focus to every challenge.";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/mino9421' },

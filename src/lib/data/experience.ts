@@ -35,7 +35,7 @@ export const items: Array<Experience> = [
 		name: 'Intermediate Software Engineer',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.ADP,
 		shortDescription: 'Creating awesome tools for developers.'
 	},
 	{
@@ -67,7 +67,7 @@ export const items: Array<Experience> = [
 		name: 'Computer Science Teaching Assistant',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.GB,
 		shortDescription: 'Assisting professors support students and tutoring students after classes.'
 	},
 	{
@@ -102,7 +102,7 @@ export const items: Array<Experience> = [
 		name: 'Junior Software Engineer',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Inone,
 		shortDescription: 'Implementing application for users to shop smart and track their spendings.'
 	},
 	{
@@ -129,7 +129,7 @@ export const items: Array<Experience> = [
 		name: 'Operation Managment',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Avante,
 		shortDescription: 'Streamlined operations and ensured swift emergency response through innovative software development and communication management.'
 	}
 ];
