@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.b243f239.js";import{g as n}from"./skills.11da81da.js";import{C as t}from"./types.1ebf2f37.js";const r=[{slug:"Intermediate Software Engineer",company:"ADP",description:`
+import{A as e}from"./UIcon.db59d7b1.js";import{g as n}from"./skills.a5fafcfc.js";import{C as t}from"./types.1ebf2f37.js";const r=[{slug:"Intermediate Software Engineer",company:"ADP",description:`
     • Configured and developed custom solutions using Microsoft Power Platform
 		 (GIS Power Apps, Power Automate) and Dynamics 365.
 
