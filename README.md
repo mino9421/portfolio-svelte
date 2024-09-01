@@ -28,3 +28,26 @@ if you did all the above `CORRECTLY`, and no workflow was launched, try to push 
 ## Known issues:
 
 - Svelte no longer support `node 14`, use a newer version instead.
+
+
+# Slick Portfolio With Svelte
+
+A Vercel-like style portfolio template for developers, built with Svelte. This template offers a modern, sleek design to showcase your projects, skills, and experience.
+
+## Features
+
+- **Modular Structure**: Easily customizable with separate components for skills, projects, experience, and education.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Custom Styling**: Utilize Tailwind CSS, Sass, and UnoCSS for flexible styling.
+- **Data-Driven**: Manage content through Markdown files for skills, projects, and experience.
+
+## Getting Started
+
+To use this template as-is or customize it for your own needs, follow these steps:
+
+### Setup
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/mino9421/portfolio-svelte.git
+   cd portfolio-svelte

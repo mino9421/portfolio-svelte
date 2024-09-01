@@ -27,6 +27,10 @@ import laravel_md from '$lib/md/skills/laravel.md?raw';
 import honojs_md from '$lib/md/skills/honojs.md?raw';
 import fastify_md from '$lib/md/skills/fastify.md?raw';
 import unity_md from '$lib/md/skills/unity.md?raw';
+import php_md from '$lib/md/skills/php.md?raw';
+import trpc_md from '$lib/md/skills/trpc.md?raw';
+import Drizzle_md from '$lib/md/skills/drizzle.md?raw';
+import prisma_md from '$lib/md/skills/prisma.md?raw';
 
 
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
@@ -95,16 +99,16 @@ export const items = [
 	defineSkill({
 		slug: 'c',
 		color: 'purple',
-		description: c_md, // needs fix
-		logo: Assets.C,	// needs fix
+		description: c_md,
+		logo: Assets.C,
 		category: 'pro-lang',
 		name: 'C'
 	}),
 	defineSkill({
 		slug: 'c++',
 		color: 'purple',
-		description: cpp_md, // needs fix
-		logo: Assets.Cpp,	// needs fix
+		description: cpp_md,
+		logo: Assets.Cpp,
 		category: 'pro-lang',
 		name: 'C++'
 	}),
@@ -143,8 +147,8 @@ export const items = [
 	defineSkill({
 		slug: 'php',
 		color: 'cyan',
-		description: go_md, // need fix
-		logo: Assets.Php, // need fix
+		description: php_md,
+		logo: Assets.Php,
 		name: 'PHP',
 		category: 'pro-lang'
 	}),
@@ -282,6 +286,14 @@ export const items = [
 		name: 'Node JS'
 	}),
 	defineSkill({
+		slug: 'trpc',
+		color: 'green',
+		description: trpc_md,
+		logo: Assets.Trpc,
+		category: 'env',
+		name: 'Trpc'
+	}),
+	defineSkill({
 		slug: 'deno',
 		color: 'white',
 		description: deno_md,
@@ -361,9 +373,17 @@ export const items = [
 	defineSkill({
 		slug: 'prisma',
 		color: 'darkcyan',
-		description: '',
+		description: prisma_md,
 		logo: Assets.Prisma,
 		name: 'Prisma',
+		category: 'orm'
+	}),
+	defineSkill({
+		slug: 'drizzle',
+		color: 'darkcyan',
+		description: Drizzle_md,
+		logo: Assets.Drizzle,
+		name: 'Drizzle',
 		category: 'orm'
 	}),
 

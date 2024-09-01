@@ -95,6 +95,8 @@ const Assets = {
 	Php: a('php.jpg'),
 	Laravel: a('laravel.jpg'),
 	Unity: a('unity.png'),
+	Trpc: a('trpc.png'),
+	Drizzle: a('drizzle.png'),
 	Gazer_1: a('gazer_1.png'),
 	Gazer_2: a('gazer_2.png'),
 	Gazer_3: a('gazer_3.png'),
