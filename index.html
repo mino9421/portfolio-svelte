@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/portfolio-svelte/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/entry/start.a9433edd.js">
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/chunks/scheduler.7a274a43.js">
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/chunks/singletons.f5e31c57.js">
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/chunks/paths.97b6e409.js">
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/entry/app.8447a4cf.js">
+		<link rel="modulepreload" href="/portfolio-svelte/_app/immutable/chunks/index.28409b7f.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1k84h9a = {
+						assets: "/portfolio-svelte",
+						base: "/portfolio-svelte",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/portfolio-svelte/_app/immutable/entry/start.a9433edd.js"),
+						import("/portfolio-svelte/_app/immutable/entry/app.8447a4cf.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
