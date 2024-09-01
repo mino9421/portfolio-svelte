@@ -15,7 +15,7 @@ export const items: Array<Project> = [
 			portfolio_md,
 		shortDescription:
 			'A modular and customizable portfolio built with SvelteKit, TypeScript, and Tailwind CSS, allowing users to easily manage and expand their portfolio by adding skills, projects, experience, and education via Markdown files.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/mino9421/portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
