@@ -20,6 +20,14 @@ import angular_md from '$lib/md/skills/angular.md?raw';
 import xamarin_md from '$lib/md/skills/xamarin.md?raw';
 import node_md from '$lib/md/skills/node.md?raw';
 import deno_md from '$lib/md/skills/deno.md?raw';
+import c_md from '$lib/md/skills/c.md?raw';
+import cpp_md from '$lib/md/skills/cpp.md?raw';
+import rust_md from '$lib/md/skills/rust.md?raw';
+import laravel_md from '$lib/md/skills/laravel.md?raw';
+import honojs_md from '$lib/md/skills/honojs.md?raw';
+import fastify_md from '$lib/md/skills/fastify.md?raw';
+import unity_md from '$lib/md/skills/unity.md?raw';
+
 
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
@@ -87,7 +95,7 @@ export const items = [
 	defineSkill({
 		slug: 'c',
 		color: 'purple',
-		description: java_md, // needs fix
+		description: c_md, // needs fix
 		logo: Assets.C,	// needs fix
 		category: 'pro-lang',
 		name: 'C'
@@ -95,7 +103,7 @@ export const items = [
 	defineSkill({
 		slug: 'c++',
 		color: 'purple',
-		description: java_md, // needs fix
+		description: cpp_md, // needs fix
 		logo: Assets.Cpp,	// needs fix
 		category: 'pro-lang',
 		name: 'C++'
@@ -119,7 +127,7 @@ export const items = [
 	defineSkill({
 		slug: 'rust',
 		color: 'orange',
-		description: '',
+		description: rust_md,
 		logo: Assets.Rust,
 		name: 'Rust',
 		category: 'pro-lang'
@@ -167,6 +175,14 @@ export const items = [
 		name: 'React Js'
 	}),
 	defineSkill({
+		slug: 'unity',
+		color: 'cyan',
+		description: unity_md,
+		logo: Assets.Unity,
+		category: 'framework',
+		name: 'Unity'
+	}),
+	defineSkill({
 		slug: 'vue',
 		color: 'green',
 		description: vue_md,
@@ -193,7 +209,7 @@ export const items = [
 	defineSkill({
 		slug: 'laravel',
 		color: 'white',
-		description: remix_md,
+		description: laravel_md,
 		logo: Assets.Laravel,
 		category: 'framework',
 		name: 'Laravel'
@@ -277,7 +293,7 @@ export const items = [
 	defineSkill({
 		slug: 'fastify',
 		color: 'fastify',
-		description: '',
+		description: fastify_md,
 		logo: Assets.Fastify,
 		name: 'Fastify',
 		category: 'framework'
@@ -293,7 +309,7 @@ export const items = [
 	defineSkill({
 		slug: 'honojs',
 		color: 'orange',
-		description: '',
+		description: honojs_md,
 		logo: Assets.HonoJs,
 		name: 'Hono JS',
 		category: 'framework'
@@ -486,7 +502,7 @@ export const items = [
 		logo: Assets.Illustrator,
 		name: 'Adobe Illustrator',
 		category: 'design'
-	})
+	}),
 ] as const;
 
 export const title = 'Skills';
