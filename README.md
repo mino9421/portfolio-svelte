@@ -30,9 +30,7 @@ if you did all the above `CORRECTLY`, and no workflow was launched, try to push 
 - Svelte no longer support `node 14`, use a newer version instead.
 
 
-# Slick Portfolio With Svelte
 
-A Vercel-like style portfolio template for developers, built with Svelte. This template offers a modern, sleek design to showcase your projects, skills, and experience.
 
 ## Features
 
