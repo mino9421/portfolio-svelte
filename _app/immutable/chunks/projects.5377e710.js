@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.cb511072.js";import{g as t}from"./skills.a57587c0.js";const i=`Developed for Dungeon Crawler Jam 2024, this game is a cosmic horror-themed RPG set within ancient ruins, designed to evoke feelings of solitude and dread. The gameplay features procedurally generated enemies, along with diverse abilities, spells, classes, and races, offering endless replayability. Out of 167 entries, we ranked #80, focusing on the eerie atmosphere of cosmic horror and the mystique of ancient ruins to create a uniquely haunting experience.
+import{A as e}from"./UIcon.3d5ef48d.js";import{g as t}from"./skills.cba309fd.js";const i=`Developed for Dungeon Crawler Jam 2024, this game is a cosmic horror-themed RPG set within ancient ruins, designed to evoke feelings of solitude and dread. The gameplay features procedurally generated enemies, along with diverse abilities, spells, classes, and races, offering endless replayability. Out of 167 entries, we ranked #80, focusing on the eerie atmosphere of cosmic horror and the mystique of ancient ruins to create a uniquely haunting experience.
 
 
 #### Try The Link Below To Play The Game:
