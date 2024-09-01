@@ -1,4 +1,4 @@
-import{A as n}from"./UIcon.3d5ef48d.js";const p=`# JavaScript
+import{A as n}from"./UIcon.b243f239.js";const p=`# JavaScript
 
 JavaScript is the backbone of modern web development, enabling dynamic, interactive web pages. It’s a versatile language that can be used both on the client-side and server-side.
 
