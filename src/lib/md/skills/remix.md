@@ -6,23 +6,6 @@ Remix is a modern React framework designed for building fast, scalable web appli
 
 I have used Remix to develop high-performance web applications, leveraging its powerful data-fetching capabilities and built-in routing to streamline the development process. Remix's approach to data loading and its emphasis on optimized rendering have allowed me to create applications that are both fast and efficient, with a smooth user experience.
 
-## Related Projects
-
-### Project P
-- **Role**: Frontend Developer
-- **Technologies Used**: Remix, React, TypeScript, Prisma
-- **Description**: Built a project management tool using Remix, React, and TypeScript. The application featured real-time data updates and dynamic content loading, utilizing Remix’s data-fetching techniques to ensure fast and responsive interactions. Prisma was used for database management, providing a smooth integration with Remix.
-
-### Project Q
-- **Role**: Full Stack Developer
-- **Technologies Used**: Remix, React, GraphQL, PostgreSQL
-- **Description**: Developed a blog platform with Remix and GraphQL, allowing users to create, edit, and comment on posts. Remix’s server-side rendering and GraphQL integration enabled efficient data handling and optimized page load times, while PostgreSQL was used for managing content and user data.
-
-### Project R
-- **Role**: UI/UX Developer
-- **Technologies Used**: Remix, React, Tailwind CSS, Redux
-- **Description**: Created a responsive e-commerce website with Remix, featuring advanced filtering options and a dynamic shopping cart. Tailwind CSS was used for styling, and Redux managed the application state, ensuring a smooth and interactive user experience. Remix’s routing and data management capabilities were crucial in delivering a high-performance application.
-
 ## Challenges and Learnings
 
 One challenge I faced with Remix was mastering its data-fetching mechanisms and optimizing server-side rendering for dynamic content. I learned to effectively use Remix's loader functions and caching strategies to enhance performance and reduce latency. Additionally, integrating Remix with various data sources and ensuring consistent state management required a deep understanding of both Remix and its ecosystem.

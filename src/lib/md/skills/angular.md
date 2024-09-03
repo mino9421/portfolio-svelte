@@ -6,23 +6,6 @@ Angular is a robust, open-source framework developed by Google for building dyna
 
 I have worked extensively with Angular to develop complex web applications that require high performance and scalability. Angular’s component-based architecture and extensive CLI tools have enabled me to build efficient and maintainable codebases. I’ve utilized Angular’s features such as RxJS for reactive programming, Angular Material for UI components, and NgRx for state management to deliver sophisticated applications.
 
-## Related Projects
-
-### Project B
-- **Role**: Frontend Developer
-- **Technologies Used**: Angular, RxJS, Angular Material
-- **Description**: Developed a comprehensive project management application using Angular, incorporating real-time data updates and interactive UI elements. Angular Material was used for a modern design, and RxJS facilitated efficient data handling and asynchronous operations, resulting in a responsive and user-friendly application.
-
-### Project C
-- **Role**: Full Stack Developer
-- **Technologies Used**: Angular, Node.js, Express, MongoDB
-- **Description**: Created a collaborative tool for team communication and task management with Angular on the frontend and Node.js/Express on the backend. The application featured user authentication, data synchronization, and real-time updates, demonstrating Angular’s ability to handle complex interactions and state management.
-
-### Project D
-- **Role**: UI/UX Developer
-- **Technologies Used**: Angular, NgRx, SCSS
-- **Description**: Built a dynamic e-commerce platform using Angular with a focus on UI/UX design. Implemented NgRx for state management to handle complex user interactions and data flow. SCSS was used for styling, ensuring a responsive and visually appealing user interface.
-
 ## Challenges and Learnings
 
 One challenge I encountered with Angular was managing large-scale state across different modules and components. I learned to effectively use NgRx for state management to ensure consistent data flow and simplify state handling. Additionally, optimizing Angular’s performance for large applications required in-depth knowledge of lazy loading, change detection strategies, and AOT (Ahead-Of-Time) compilation.

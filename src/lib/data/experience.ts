@@ -2,31 +2,16 @@ import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
+import adp_md from '$lib/md/experiences/adp.md?raw';
+import gbc_md from '$lib/md/experiences/gbc.md?raw';
+import inone_md from '$lib/md/experiences/inone.md?raw';
+import operation_md from '$lib/md/experiences/operation.md?raw';
+
 export const items: Array<Experience> = [
 	{
 		slug: 'Intermediate Software Engineer',
 		company: 'ADP',
-		description:  `
-    • Configured and developed custom solutions using Microsoft Power Platform
-		 (GIS Power Apps, Power Automate) and Dynamics 365.
-
-    • Built internal tools using Power Platform, significantly enhancing operational
-		 efficiency and reducing manual processing time by 50%.
-
-    • Directed the implementation of user interfaces utilizing Vite, ReactJS, TypeScript,
-		 Zod, and Tailwind, resulting in a substantial 40% surge in user interaction and
-		  a significant 25% decrease in bounce rates across multiple platforms, ultimately
-			 enhancing user satisfaction and improving experience.
-
-    • Coordinated the adoption of advanced state management practices through Next.js,
-		 Zustand, and Drizzle ORM, leading to a 30% enhancement in application performance
-		  metrics, notably faster loading times, and heightened responsiveness, thus enriching
-			 user experience and bolstering retention rates.
-		
-    • Leveraged TypeScript to enforce type safety and enhance code clarity, resulting
-		 in a 50% reduction in runtime errors and a 30% decrease in bug-fixing duration,
-		  accelerating project timelines and optimizing overall efficiency.
-  `,
+		description:  adp_md,
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Toronto',
@@ -41,24 +26,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'Computer Science Teaching Assistant',
 		company: 'George Brown',
-		description:  `
-    • Provided tailored guidance to students, aiding them in overcoming coding
-		 challenges and nurturing essential critical and analytical approaches crucial
-		  for real-world software engineering scenarios, resulting in a 20% boost in assignment completion rates.
-
-    • Mentored a cohort of over 30 students, utilizing personalized teaching
-		 techniques to significantly enhance their grasp of programming concepts,
-		  yielding a 25% increase in exam scores and a 15% drop in dropout rates.
-
-    • Equipped students with industry-relevant knowledge and practical skills,
-		 paving the path for successful careers in software development and related fields,
-		  culminating in a 40% uptick in student internship placements and post-graduation job placements.
-
-    • Anticipated students’ needs and engaged accordingly to discern their
-		 individual learning needs and preferences, tailoring teaching approaches
-		  to maximize comprehension and engagement, ultimately fostering a 35% improvement
-			 in student satisfaction ratings and academic achievements.
-  `,
+		description:  gbc_md,
 		contract: ContractType.PartTime,
 		type: 'Software Development',
 		location: 'Toronto',
@@ -73,27 +41,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'Software Engineer',
 		company: 'inOne Mobile Wallet',
-		description:  `
-    • Introduced frontend development initiatives using React, Tailwind,
-		 and Redux/Prisma ORM, crafting responsive and interactive user interfaces
-		  that exceeded project benchmarks. This effort led to a 30% surge in user engagement metrics and garnered positive user feedback.
-
-    • Applied Redux for efficient state management, ensuring a centralized
-		 and predictable state container that facilitated seamless data flow and
-		  enhanced application performance, resulting in a 30% improvement in page load times and increased scalability.
-
-    • Promoted close collaboration with backend developers and designers to
-		 seamlessly integrate frontend components with backend APIs and translate
-		  UI designs into cohesive and feature-rich web applications, garnering a 25% increase in user satisfaction ratings.
-
-    • Leveraged React's component-based architecture to modularize code and
-		 promote code reusability, thereby streamlining development efforts and
-		  enhancing maintainability, yielding a 20% reduction in development time for subsequent projects.
-
-    • Spearheaded code reviews and provided valuable feedback to team members,
-		 cultivating a culture of continual improvement and adherence to best practices
-		  in frontend development, resulting in a 35% elevation in code quality overall.
-  `,
+		description:  inone_md,
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Armenia',
@@ -108,19 +56,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'Operation Management',
 		company: 'Avante',
-		description:  `
-    • Developed a parking ticket application to streamline the process of issuing parking
-		 tickets on properties managed across GTA Ontario, utilizing self-taught software engineering skills.
-
-    • Managed communication with property managers, police departments, fire departments,
-		 ambulance services, and maintenance contractors, ensuring seamless coordination and swift response to incidents.
-
-    • Handled urgent contractor communications for elevator rescues, HVAC issues,
-		 and other critical situations, ensuring timely and effective resolutions.
-
-    • Maintained continuous radio communication, ensuring all security guards were
-		 well-informed and equipped with the necessary tools and information to perform their duties effectively.
-  `,
+		description:  operation_md,
 		contract: ContractType.FullTime,
 		type: 'Operation Management',
 		location: 'Toronto',

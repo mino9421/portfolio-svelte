@@ -23,7 +23,7 @@ export const items: Array<Education> = [
 		logo: Assets.Seneca,
 		name: '',
 		organization: 'Seneca',
-		period: { from: new Date(2016, 0, 1), to: new Date(2018, 5, 1) },
+		period: { from: new Date(2016, 0, 1), to: new Date(2018, 1, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['Calculus', 'Assembly', 'C', 'C++', 'Computer Architecture', 'Linux Unix', 'Cloud AWS AZURE GCP',

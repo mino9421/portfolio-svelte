@@ -5,6 +5,7 @@ import type { Project } from '../types';
 import gazer_md from '$lib/md/projects/gazer.md?raw';
 import deez_md from '$lib/md/projects/deez.md?raw';
 import portfolio_md from '$lib/md/projects/portfolio.md?raw';
+import poker_md from '$lib/md/projects/poker.md?raw';
 
 
 // Import images directly
@@ -29,7 +30,7 @@ export const items: Array<Project> = [
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
-			from: new Date()
+			from: new Date(2024, 8, 25), to: new Date(2024, 9, 3)
 		},
 		skills: getSkills('svelte', 'ts', 'js', 'tailwind', 'unocss', 'sass', 'node', 'html'),
 		type: 'Website Template',
@@ -62,7 +63,7 @@ export const items: Array<Project> = [
 		logo: Assets.ReactJs,
 		name: 'Deez',
 		period: {
-			from: new Date()
+			from: new Date(2024, 4, 10), to: new Date(2024, 4, 20)
 		},
 		skills: getSkills('reactjs', 'ts', 'js', 'tailwind', 'prisma', 'vite', 'trpc', 'drizzle' ),
 		type: 'Website Template',
@@ -77,7 +78,7 @@ export const items: Array<Project> = [
 		logo: Assets.Unity,
 		name: 'Gazer',
 		period: {
-			from: new Date()
+			from: new Date(2024, 3, 22), to: new Date(2024, 3, 31)
 		},
 		skills: getSkills('unity', 'csharp'),
 		type: 'Website Template',
@@ -95,6 +96,35 @@ export const items: Array<Project> = [
 				src: gazerImg3
 			}
 		]
+	},
+	{
+		slug: "Poker Ultimte Texas Hold'em",
+		color: '#ff3e00',
+		description: poker_md,
+		shortDescription:
+		"Built with Vue.js and Nuxt.js, this Ultimate Texas Hold'em Poker game lets players compete against a computer dealer with realistic gameplay and dynamic betting rounds.",
+		links: [{ to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
+		logo: Assets.Nuxt,
+		name: "Poker Ultimte Texas Hold'em",
+		period: {
+			from: new Date(2024, 8, 1), to: new Date(2024, 8, 10)
+		},
+		skills: getSkills('ts', 'vue', 'nuxt', 'tailwind', 'unocss', 'vite', 'vitest'),
+		type: 'Website Template',
+		// screenshots: [
+		// 	{
+		// 		label: '1',
+		// 		src: gazerImg1
+		// 	},
+		// 	{
+		// 		label: '2',
+		// 		src: gazerImg2
+		// 	},
+		// 	{
+		// 		label: '3',
+		// 		src: gazerImg3
+		// 	}
+		// ]
 	},
 ];
 

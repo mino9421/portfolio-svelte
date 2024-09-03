@@ -1,31 +1,25 @@
 # TypeScript
 
-TypeScript is a strongly typed superset of JavaScript that adds static typing to the language, helping to catch errors early in the development process and improving code quality and maintainability.
+## Overview
+TypeScript is a strongly typed programming language that builds on JavaScript by adding static type definitions. It allows developers to catch errors early in the development process, leading to more robust and maintainable code.
 
-## My Experience
+## My Experience with TypeScript
+In the Deez social media platform, TypeScript played a crucial role in ensuring type safety across the entire stack. By using TypeScript, I was able to reduce runtime errors, improve code quality, and ensure a seamless development experience, particularly when working with complex data structures and APIs.
 
-I’ve integrated TypeScript into various projects to enhance code reliability and maintainability. TypeScript’s type system has been particularly valuable in larger codebases, where it helps prevent common bugs and ensures that the code remains scalable as the project grows.
+## Project-Specific Example
+One of the key areas where TypeScript was invaluable was in defining the schema validation for emoji-only posts. By using TypeScript in conjunction with Zod, I was able to enforce strict type rules that ensured only valid emoji content could be posted.
 
-## Related Projects
+```typescript
+import { z } from 'zod';
 
-### Project X
-- **Role**: Full Stack Developer
-- **Technologies Used**: TypeScript, Node.js, Express
-- **Description**: Migrated a JavaScript-based backend to TypeScript, which improved type safety and reduced runtime errors, especially in handling API responses and database interactions.
+const emojiPostSchema = z.string().regex(/^(\p{Emoji_Presentation}|\p{Emoji}\uFE0F)$/u, {
+  message: "Posts can only contain emojis",
+});
 
-### Project Y
-- **Role**: Frontend Developer
-- **Technologies Used**: TypeScript, React, Redux
-- **Description**: Built a complex state management system using TypeScript with Redux in a React application. TypeScript provided strong typing for actions, reducers, and components, resulting in fewer bugs and easier refactoring.
-
-## Challenges and Learnings
-
-Transitioning from JavaScript to TypeScript required a mindset shift towards more rigorous typing. One challenge was managing complex types, especially with deeply nested objects and third-party libraries. I learned to effectively use TypeScript’s utility types and generics to create flexible yet type-safe code.
-
-## Future Aspirations
-
-I plan to continue deepening my expertise in TypeScript, particularly in using advanced features like conditional types, mapped types, and decorators. I’m also interested in exploring TypeScript in the context of new frameworks and libraries, such as Vue/Nuxt, SvelteKit and Deno.
-
-## Conclusion
-
-TypeScript has become an indispensable tool in my development workflow. Its benefits in maintaining large codebases and catching errors early make it a critical asset in modern web development. I look forward to leveraging TypeScript in future projects to build robust, scalable applications.
+function createPost(content: string) {
+  const validation = emojiPostSchema.safeParse(content);
+  if (!validation.success) {
+    throw new Error(validation.error.errors[0].message);
+  }
+  // Save the post to the database...
+}

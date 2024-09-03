@@ -31,6 +31,7 @@ import php_md from '$lib/md/skills/php.md?raw';
 import trpc_md from '$lib/md/skills/trpc.md?raw';
 import Drizzle_md from '$lib/md/skills/drizzle.md?raw';
 import prisma_md from '$lib/md/skills/prisma.md?raw';
+import solidjs_md from '$lib/md/skills/solidjs.md?raw';
 
 
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
@@ -253,7 +254,7 @@ export const items = [
 	defineSkill({
 		slug: 'solid',
 		color: 'blue',
-		description: '',
+		description: solidjs_md,
 		logo: Assets.SolidJs,
 		category: 'library',
 		name: 'Solid JS'

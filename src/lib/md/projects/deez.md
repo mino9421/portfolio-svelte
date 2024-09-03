@@ -1,39 +1,56 @@
-https://github.com/mino9421/deez-book
+# React.js (Social Media Clone)
 
-# The T3 Stack
+## Overview
+- This project is a social media platform where users communicate strictly through emojis, designed to offer a unique and minimalist form of expression.
+- It’s built using the T3 stack, with modern tools and best practices, ensuring a scalable and maintainable codebase.
 
-The **T3 Stack** is a web development stack created by Theo focused on simplicity, modularity, and full-stack typesafety. It includes:
+## Project: Deez (Emoji-Only Social Media Platform)
+- **Role**: Full Stack Developer
+- **Technologies Used**:
+  - **React.js**: For building the user interface.
+  - **tRPC**: To create end-to-end typesafe APIs and simplify communication between the client and server.
+  - **Zustand**: State management tool for handling global state in a simple and scalable way.
+  - **Clerk**: Used for fast and secure authentication, allowing users to sign up and log in with ease.
+  - **Pico**: A lightweight, SQLite-based database, used for storing user messages (posts).
+  - **Zod**: For schema validation, ensuring that posts and other data structures are properly validated before being processed.
+  - **Drizzle**: ORM used for database interactions, making it easier to write and maintain database queries.
+  - **TypeScript**: To enforce type safety across the entire stack, reducing runtime errors and improving development efficiency.
+  - **Tailwind CSS**: For styling the application with a utility-first approach.
+  - **Vercel**: Deployed the production-ready application on Vercel for fast and scalable hosting.
 
-- **Next.js**
-- **tRPC**
-- **Tailwind CSS**
-- **TypeScript**
-- **Prisma**
-- **Drizzle**
-- **NextAuth.js**
+## Features
+- **Emoji-Only Posts**: Users can create posts using emojis only, restricting text input to ensure the unique communication style.
+- **Fast Authentication**: Integrated Clerk to provide a seamless and secure authentication experience with quick sign-ups and logins.
+- **Real-Time Updates**: Utilized React.js with tRPC to enable real-time updates for emoji-based interactions.
+- **Production-Ready**: The application is fully deployed on Vercel, demonstrating production-readiness and scalability.
 
-## What is `create-t3-app`? A Template?
+## Challenges and Solutions
+- **Challenge**: Ensuring that the posts are restricted to emojis only.
+  - **Solution**: Implemented strict validation using Zod to check that the input only contains emojis before allowing a post to be created.
+  
+- **Challenge**: Managing the global state efficiently across different components.
+  - **Solution**: Used Zustand for simple and effective state management, allowing the app to remain performant and easy to maintain.
 
-Kind of. `create-t3-app` is a CLI tool developed by experienced T3 Stack developers to streamline the setup of a modular T3 Stack application. Unlike traditional templates, `create-t3-app` generates a project structure based on your specific needs, allowing you to choose the components that are most relevant to your project.
+- **Challenge**: Simplifying database interactions while maintaining flexibility.
+  - **Solution**: Leveraged Drizzle ORM to write clean and maintainable queries, working seamlessly with Pico.
 
-After working on countless projects and gathering years of experience with this technology, we've formed strong opinions and insights, which we've encoded into this CLI.
+## Impact
+- The project serves as a demonstration of modern full-stack development practices, showing proficiency in using the T3 stack, TypeScript, and production deployment on Vercel.
+- This project highlights innovative use cases like emoji-only communication, which sets it apart from traditional social media platforms.
 
-### Not an All-Inclusive Template
+```typescript
+// Example code block - Zod schema for validating emoji-only posts
+import { z } from 'zod';
 
-This is NOT an all-inclusive template. We expect you to bring your own libraries that solve the needs of YOUR application. While we don’t prescribe solutions to more specific problems like state management and deployment, we do have some recommendations listed here.
+const emojiPostSchema = z.string().regex(/^(\p{Emoji_Presentation}|\p{Emoji}\uFE0F)$/u, {
+  message: "Posts can only contain emojis",
+});
 
-## T3 Axioms
-
-The T3 Stack is built on a set of core beliefs that guide our decisions. We call these the **T3 Axioms**:
-
-### 1. Solve Problems
-
-It's easy to fall into the trap of "adding everything." We explicitly avoid that. Everything added to `create-t3-app` solves a specific problem within the core technologies included. For example, we won't include state management libraries like Zustand or Redux, but we will integrate **NextAuth.js**, **Prisma**, and **tRPC** to solve common authentication and data handling challenges.
-
-### 2. Bleed Responsibly
-
-We love bleeding-edge technology. The speed and fun that come with new tech are genuinely exciting. However, we believe in "bleeding responsibly." This means using riskier tech in safer areas. For instance, we wouldn’t bet on risky new database tech (SQL is great!), but we happily use **tRPC** since it's just functions that are easy to refactor or replace.
-
-### 3. Typesafety Isn't Optional
-
-The main goal of `create-t3-app` is to provide the quickest way to start a new full-stack, typesafe web application. We take typesafety very seriously as it improves our productivity and helps us ship fewer bugs. Any decision that compromises the typesafe nature of `create-t3-app` is a decision that should be made in a different project.
+// Function to validate and create a new post
+function createPost(content: string) {
+  const validation = emojiPostSchema.safeParse(content);
+  if (!validation.success) {
+    throw new Error(validation.error.errors[0].message);
+  }
+  // Code to save the post to the database...
+}
