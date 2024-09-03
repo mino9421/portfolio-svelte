@@ -7,6 +7,16 @@ import deez_md from '$lib/md/projects/deez.md?raw';
 import portfolio_md from '$lib/md/projects/portfolio.md?raw';
 
 
+// Import images directly
+import portfolioImg1 from '$lib/assets/projects/portfolio/portfolio_1.png';
+import portfolioImg2 from '$lib/assets/projects/portfolio/portfolio_2.png';
+import portfolioImg3 from '$lib/assets/projects/portfolio/portfolio_3.png';
+import portfolioImg4 from '$lib/assets/projects/portfolio/portfolio_4.png';
+
+import gazerImg1 from '$lib/assets/projects/gazer/gazer_1.png';
+import gazerImg2 from '$lib/assets/projects/gazer/gazer_2.png';
+import gazerImg3 from '$lib/assets/projects/gazer/gazer_3.png';
+
 export const items: Array<Project> = [
 	{
 		slug: 'portfolio-svelte',
@@ -26,19 +36,19 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: '1',
-				src: '/projects/portfolio/portfolio_1.png'
+				src: portfolioImg1
 			},
 			{
 				label: '2',
-				src: '/projects/portfolio/portfolio_2.png'
+				src: portfolioImg2
 			},
 			{
 				label: '3',
-				src: '/projects/portfolio/portfolio_3.png'
+				src: portfolioImg3
 			},
 			{
 				label: '4',
-				src: '/projects/portfolio/portfolio_4.png'
+				src: portfolioImg4
 			}
 		]
 	},
@@ -74,15 +84,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: '1',
-				src: '/projects/gazer/gazer_1.png'
+				src: gazerImg1
 			},
 			{
 				label: '2',
-				src: '/projects/gazer/gazer_2.png'
+				src: gazerImg2
 			},
 			{
 				label: '3',
-				src: '/projects/gazer/gazer_3.png'
+				src: gazerImg3
 			}
 		]
 	},
