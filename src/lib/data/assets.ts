@@ -100,6 +100,9 @@ const Assets = {
 	Gazer_1: a('gazer_1.png'),
 	Gazer_2: a('gazer_2.png'),
 	Gazer_3: a('gazer_3.png'),
+	Poker_1: a('gazer_1.png'),
+	Poker_2: a('gazer_2.png'),
+	Poker_3: a('gazer_3.png'),
 };
 
 export default Assets;

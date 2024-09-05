@@ -18,6 +18,10 @@ import gazerImg1 from '$lib/assets/projects/gazer/gazer_1.png';
 import gazerImg2 from '$lib/assets/projects/gazer/gazer_2.png';
 import gazerImg3 from '$lib/assets/projects/gazer/gazer_3.png';
 
+import Poker_1 from '$lib/assets/projects/poker/poker_1.png';
+import Poker_2 from '$lib/assets/projects/poker/poker_2.png';
+import Poker_3 from '$lib/assets/projects/poker/poker_3.png';
+
 export const items: Array<Project> = [
 	{
 		slug: 'portfolio-svelte',
@@ -26,7 +30,7 @@ export const items: Array<Project> = [
 			portfolio_md,
 		shortDescription:
 			'A modular and customizable portfolio built with SvelteKit, TypeScript, and Tailwind CSS, allowing users to easily manage and expand their portfolio by adding skills, projects, experience, and education via Markdown files.',
-		links: [{ to: 'https://github.com/mino9421/portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/mino9421/portfolio-svelte', label: 'GitHub' }, { to: 'https://mino9421.github.io/portfolio-svelte', label: 'Pages' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
@@ -103,7 +107,7 @@ export const items: Array<Project> = [
 		description: poker_md,
 		shortDescription:
 		"Built with Vue.js and Nuxt.js, this Ultimate Texas Hold'em Poker game lets players compete against a computer dealer with realistic gameplay and dynamic betting rounds.",
-		links: [{ to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
+		links: [{ to: 'https://github.com/mino9421/poker-vue', label: 'GitHub' }, { to: 'https://poker-vue.vercel.app/', label: 'Vercel' }],
 		logo: Assets.Nuxt,
 		name: "Poker Ultimte Texas Hold'em",
 		period: {
@@ -111,20 +115,20 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('ts', 'vue', 'nuxt', 'tailwind', 'unocss', 'vite', 'vitest'),
 		type: 'Website Template',
-		// screenshots: [
-		// 	{
-		// 		label: '1',
-		// 		src: gazerImg1
-		// 	},
-		// 	{
-		// 		label: '2',
-		// 		src: gazerImg2
-		// 	},
-		// 	{
-		// 		label: '3',
-		// 		src: gazerImg3
-		// 	}
-		// ]
+		screenshots: [
+			{
+				label: '1',
+				src: Poker_1
+			},
+			{
+				label: '2',
+				src: Poker_2
+			},
+			{
+				label: '3',
+				src: Poker_3
+			}
+		]
 	},
 ];
 
