@@ -22,6 +22,11 @@ import poker_1 from '$lib/assets/projects/poker/poker_1.png';
 import poker_2 from '$lib/assets/projects/poker/poker_2.png';
 import poker_3 from '$lib/assets/projects/poker/poker_3.png';
 
+import deez_1 from '$lib/assets/projects/deez/deez_1.png';
+import deez_2 from '$lib/assets/projects/deez/deez_2.png';
+import deez_3 from '$lib/assets/projects/deez/deez_3.png';
+
+
 export const items: Array<Project> = [
 	{
 		slug: 'portfolio-svelte',
@@ -63,7 +68,7 @@ export const items: Array<Project> = [
 		description: deez_md,
 		shortDescription:
 		'A social media platform built with Next.js, tRPC, and Prisma, where users communicate solely through emojis. It features modern tools like Tailwind CSS, Drizzle, and NextAuth.js for a seamless and secure experience.',
-		links: [{ to: 'https://github.com/mino9421/deez-book', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/mino9421/deez-book', label: 'GitHub' }, { to: 'https://deez-book.vercel.app/', label: 'Vercel' }],
 		logo: Assets.ReactJs,
 		name: 'Deez',
 		period: {
@@ -71,6 +76,20 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('reactjs', 'ts', 'js', 'tailwind', 'prisma', 'vite', 'trpc', 'drizzle' ),
 		type: 'Website Template',
+		screenshots: [
+			{
+				label: '1',
+				src: deez_1
+			},
+			{
+				label: '2',
+				src: deez_2
+			},
+			{
+				label: '3',
+				src: deez_3
+			}
+		]
 	},
 	{
 		slug: 'Gazer',
