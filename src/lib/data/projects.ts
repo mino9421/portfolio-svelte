@@ -18,9 +18,9 @@ import gazerImg1 from '$lib/assets/projects/gazer/gazer_1.png';
 import gazerImg2 from '$lib/assets/projects/gazer/gazer_2.png';
 import gazerImg3 from '$lib/assets/projects/gazer/gazer_3.png';
 
-import Poker_1 from '$lib/assets/projects/poker/poker_1.png';
-import Poker_2 from '$lib/assets/projects/poker/poker_2.png';
-import Poker_3 from '$lib/assets/projects/poker/poker_3.png';
+import poker_1 from '$lib/assets/projects/poker/poker_1.png';
+import poker_2 from '$lib/assets/projects/poker/poker_2.png';
+import poker_3 from '$lib/assets/projects/poker/poker_3.png';
 
 export const items: Array<Project> = [
 	{
@@ -118,15 +118,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: '1',
-				src: Poker_1
+				src: poker_1
 			},
 			{
 				label: '2',
-				src: Poker_2
+				src: poker_2
 			},
 			{
 				label: '3',
-				src: Poker_3
+				src: poker_3
 			}
 		]
 	},
