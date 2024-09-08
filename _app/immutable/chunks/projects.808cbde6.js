@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.9cc97ea2.js";import{g as t}from"./skills.38218306.js";const n=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
+import{A as e}from"./UIcon.70193291.js";import{g as n}from"./skills.644f8d08.js";const t=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
 
 ## Overview
 "Nightmare of the Gazer" is a cosmic horror-themed dungeon crawler RPG developed for the Dungeon Crawler Jam 2024. Set in ancient ruins, the game immerses players in a chilling atmosphere of solitude and dread. With procedurally generated enemies and a rich array of gameplay elements, the game offers endless replayability.
@@ -136,4 +136,55 @@ Developed a poker game simulating Ultimate Texas Hold'em, where players compete 
 ## Impact
 - Showcases proficiency in Vue and Nuxt for game development.
 - Demonstrates the use of Vitest for robust testing and validation of game rules.
-`,o=""+new URL("../assets/portfolio_1.4e77044e.png",import.meta.url).href,r=""+new URL("../assets/portfolio_2.de7ee586.png",import.meta.url).href,l=""+new URL("../assets/portfolio_3.a4923f07.png",import.meta.url).href,c=""+new URL("../assets/portfolio_4.c9a971d8.png",import.meta.url).href,d=""+new URL("../assets/gazer_1.367797c4.png",import.meta.url).href,m=""+new URL("../assets/gazer_2.e7e46c3e.png",import.meta.url).href,p=""+new URL("../assets/gazer_3.05daa496.png",import.meta.url).href,h=""+new URL("../assets/poker_1.61e376e1.png",import.meta.url).href,g=""+new URL("../assets/poker_2.36f24e0b.png",import.meta.url).href,u=""+new URL("../assets/poker_3.7c663427.png",import.meta.url).href,f=""+new URL("../assets/deez_1.6a2d2e1f.png",import.meta.url).href,y=""+new URL("../assets/deez_2.9f089698.png",import.meta.url).href,b=""+new URL("../assets/deez_3.0e428465.png",import.meta.url).href,k=[{slug:"portfolio-svelte",color:"#5e95e3",description:i,shortDescription:"A modular and customizable portfolio built with SvelteKit, TypeScript, and Tailwind CSS, allowing users to easily manage and expand their portfolio by adding skills, projects, experience, and education via Markdown files.",links:[{to:"https://github.com/mino9421/portfolio-svelte",label:"GitHub"},{to:"https://mino9421.github.io/portfolio-svelte",label:"Pages"}],logo:e.Svelte,name:"Slick Portfolio",period:{from:new Date(2024,8,25),to:new Date(2024,9,3)},skills:t("svelte","ts","js","tailwind","unocss","sass","node","html"),type:"Website Template",screenshots:[{label:"1",src:o},{label:"2",src:r},{label:"3",src:l},{label:"4",src:c}]},{slug:"deez",color:"#ff3e00",description:a,shortDescription:"A social media platform built with Next.js, tRPC, and Prisma, where users communicate solely through emojis. It features modern tools like Tailwind CSS, Drizzle, and NextAuth.js for a seamless and secure experience.",links:[{to:"https://github.com/mino9421/deez-book",label:"GitHub"},{to:"https://deez-book.vercel.app/",label:"Vercel"}],logo:e.ReactJs,name:"Deez",period:{from:new Date(2024,4,10),to:new Date(2024,4,20)},skills:t("reactjs","ts","js","tailwind","prisma","vite","trpc","drizzle"),type:"Website Template",screenshots:[{label:"1",src:f},{label:"2",src:y},{label:"3",src:b}]},{slug:"Gazer",color:"#ff3e00",description:n,shortDescription:"Semi-Procedural RPG Dungeon Crawler: Infinity",links:[{to:"https://brineshrimp.itch.io/nightmare-of-the-gazer",label:"itch.io"}],logo:e.Unity,name:"Gazer",period:{from:new Date(2024,3,22),to:new Date(2024,3,31)},skills:t("unity","csharp"),type:"Website Template",screenshots:[{label:"1",src:d},{label:"2",src:m},{label:"3",src:p}]},{slug:"Poker Ultimte Texas Hold'em",color:"#ff3e00",description:s,shortDescription:"Built with Vue.js and Nuxt.js, this Ultimate Texas Hold'em Poker game lets players compete against a computer dealer with realistic gameplay and dynamic betting rounds.",links:[{to:"https://github.com/mino9421/poker-vue",label:"GitHub"},{to:"https://poker-vue.vercel.app/",label:"Vercel"}],logo:e.Nuxt,name:"Poker Ultimte Texas Hold'em",period:{from:new Date(2024,8,1),to:new Date(2024,8,10)},skills:t("ts","vue","nuxt","tailwind","unocss","vite","vitest"),type:"Website Template",screenshots:[{label:"1",src:h},{label:"2",src:g},{label:"3",src:u}]}],S="Projects";export{k as i,S as t};
+`,o=`# Let's write the provided content to a markdown file.
+
+content = """
+# Vue Soccer Web App
+
+## Overview
+This web application is designed to provide real-time soccer information, including league standings, match results, and upcoming games. Built using Vue.js and integrating with the Soccer API, the app offers users a seamless experience in browsing data for various soccer leagues. It showcases current, past, and future match results and statistics for each team and league. 
+
+The project is currently a work in progress, with continuous improvements being made to enhance the presentation and filtering of data, ensuring a more refined user experience.
+
+## Technologies Used
+- **Vue.js**: Core framework for building the frontend and handling user interactions.
+- **Vue Router**: For navigating through different views like league standings, game schedules, and results.
+- **Soccer API**: The backend service providing live and historical data about leagues, matches, and teams.
+- **Axios**: For handling API requests and fetching data from the Soccer API.
+
+## Key Features
+- **League Standings**: Displays up-to-date league standings for multiple soccer leagues, showing team rankings, points, and statistics.
+- **Match Information**: View upcoming, live, and past match results, including detailed game stats like goals, red cards, and assists.
+- **Filtering Options**: Users can filter matches by league, date, and type (e.g., upcoming, ongoing, completed).
+- **Real-Time Data**: The application integrates real-time data updates, ensuring users always see the latest scores and standings.
+
+## Work in Progress
+- **Enhanced UI Design**: Current development is focused on improving the visual presentation of the data, making it more engaging and intuitive for users.
+- **Advanced Filtering**: Plans to implement additional filtering capabilities, such as sorting by specific teams, match locations, and detailed stats.
+- **Future Features**:
+  - **Team Profiles**: Adding detailed team and player profiles, allowing users to explore individual team statistics, key players, and historical performance.
+  - **User Personalization**: Enabling users to select favorite leagues and teams for a more tailored viewing experience.
+  - **Mobile Optimization**: Improving the layout and performance on mobile devices to ensure accessibility across all platforms.
+
+## Challenges and Solutions
+- **Challenge**: Fetching and managing large sets of data from multiple leagues.
+  - **Solution**: Optimized API requests with Axios to fetch only the relevant data when needed, reducing load times and improving performance.
+
+- **Challenge**: Displaying complex soccer data in a user-friendly manner.
+  - **Solution**: Applied Vue.js for efficient state management and conditional rendering, making the interface responsive and intuitive.
+
+## Impact
+- Demonstrates proficiency in using Vue.js and integrating third-party APIs, showcasing skills in building dynamic, real-time web applications.
+- Highlights ongoing development efforts, reflecting adaptability in handling live data and improving the application over time.
+
+## Summary
+The Vue Soccer Web App is an evolving project that brings live soccer data to users in an organized and visually appealing format. With plans for further UI enhancements and more robust filtering options, the application demonstrates a commitment to quality and continuous improvement.
+"""
+
+# Save the content to a markdown file
+file_path = '/mnt/data/vue_soccer_web_app.md'
+with open(file_path, 'w') as file:
+    file.write(content)
+
+file_path
+`,r=""+new URL("../assets/portfolio_1.4e77044e.png",import.meta.url).href,l=""+new URL("../assets/portfolio_2.de7ee586.png",import.meta.url).href,c=""+new URL("../assets/portfolio_3.a4923f07.png",import.meta.url).href,d=""+new URL("../assets/portfolio_4.c9a971d8.png",import.meta.url).href,m=""+new URL("../assets/gazer_1.367797c4.png",import.meta.url).href,p=""+new URL("../assets/gazer_2.e7e46c3e.png",import.meta.url).href,g=""+new URL("../assets/gazer_3.05daa496.png",import.meta.url).href,u=""+new URL("../assets/poker_1.61e376e1.png",import.meta.url).href,h=""+new URL("../assets/poker_2.36f24e0b.png",import.meta.url).href,f=""+new URL("../assets/poker_3.7c663427.png",import.meta.url).href,b=""+new URL("../assets/deez_1.6a2d2e1f.png",import.meta.url).href,y=""+new URL("../assets/deez_2.9f089698.png",import.meta.url).href,w=""+new URL("../assets/deez_3.0e428465.png",import.meta.url).href,v=""+new URL("../assets/football_1.dd9fdbae.png",import.meta.url).href,k=""+new URL("../assets/football_2.1c37a622.png",import.meta.url).href,S=""+new URL("../assets/football_3.f1cdf647.png",import.meta.url).href,z=[{slug:"portfolio-svelte",color:"#5e95e3",description:i,shortDescription:"A modular and customizable portfolio built with SvelteKit, TypeScript, and Tailwind CSS, allowing users to easily manage and expand their portfolio by adding skills, projects, experience, and education via Markdown files.",links:[{to:"https://github.com/mino9421/portfolio-svelte",label:"GitHub"},{to:"https://mino9421.github.io/portfolio-svelte",label:"Pages"}],logo:e.Svelte,name:"Slick Portfolio",period:{from:new Date(2024,8,25),to:new Date(2024,9,3)},skills:n("svelte","ts","js","tailwind","unocss","sass","node","html"),type:"Website Template",screenshots:[{label:"1",src:r},{label:"2",src:l},{label:"3",src:c},{label:"4",src:d}]},{slug:"deez",color:"#ff3e00",description:a,shortDescription:"A social media platform built with Next.js, tRPC, and Prisma, where users communicate solely through emojis. It features modern tools like Tailwind CSS, Drizzle, and NextAuth.js for a seamless and secure experience.",links:[{to:"https://github.com/mino9421/deez-book",label:"GitHub"},{to:"https://deez-book.vercel.app/",label:"Vercel"}],logo:e.ReactJs,name:"Deez",period:{from:new Date(2024,4,10),to:new Date(2024,4,20)},skills:n("reactjs","ts","js","tailwind","prisma","vite","trpc","drizzle"),type:"Social Media",screenshots:[{label:"1",src:b},{label:"2",src:y},{label:"3",src:w}]},{slug:"Sports League",color:"#ff3e00",description:o,shortDescription:"A sports league platform built with Nuxt.js, Vue, and Tailwind CSS, providing real-time standings, match schedules, and statistics for soccer leagues. It integrates cutting-edge tools like UnoCSS, Chart.js, and Supabase for a smooth and data-driven experience.",links:[{to:"https://github.com/mino9421/sports-league-ui",label:"GitHub"},{to:"https://sports-league-ui.vercel.app/",label:"Vercel"}],logo:e.VueJs,name:"Sports League",period:{from:new Date(2024,9,1),to:new Date(2024,9,5)},skills:n("vue","ts","js","tailwind","prisma","vite","vite","unocss","express"),type:"Data-Driven Application",screenshots:[{label:"1",src:v},{label:"2",src:k},{label:"3",src:S}]},{slug:"Poker Ultimte Texas Hold'em",color:"#ff3e00",description:s,shortDescription:"Built with Vue.js and Nuxt.js, this Ultimate Texas Hold'em Poker game lets players compete against a computer dealer with realistic gameplay and dynamic betting rounds.",links:[{to:"https://github.com/mino9421/poker-vue",label:"GitHub"},{to:"https://poker-vue.vercel.app/",label:"Vercel"}],logo:e.Nuxt,name:"Poker Ultimte Texas Hold'em",period:{from:new Date(2024,8,1),to:new Date(2024,8,10)},skills:n("ts","vue","nuxt","tailwind","unocss","vite","vitest"),type:"Browser-Based Poker Game",screenshots:[{label:"1",src:u},{label:"2",src:h},{label:"3",src:f}]},{slug:"Gazer",color:"#ff3e00",description:t,shortDescription:"Semi-Procedural RPG Dungeon Crawler: Infinity",links:[{to:"https://brineshrimp.itch.io/nightmare-of-the-gazer",label:"itch.io"}],logo:e.Unity,name:"Gazer",period:{from:new Date(2024,3,22),to:new Date(2024,3,31)},skills:n("unity","csharp"),type:"Dungeon Crawler Game",screenshots:[{label:"1",src:m},{label:"2",src:p},{label:"3",src:g}]}],x="Projects";export{z as i,x as t};
