@@ -4,6 +4,7 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+  import Analytics from '$lib/components/Analytics.svelte'
 
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
@@ -11,8 +12,10 @@
 	onMount(() => onHydrated());
 </script>
 
+
 <div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
 	<NavMenu />
+	<Analytics />
 	<div class="content container"><slot /></div>
 </div>
 
