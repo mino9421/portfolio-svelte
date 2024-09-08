@@ -6,6 +6,7 @@ import gazer_md from '$lib/md/projects/gazer.md?raw';
 import deez_md from '$lib/md/projects/deez.md?raw';
 import portfolio_md from '$lib/md/projects/portfolio.md?raw';
 import poker_md from '$lib/md/projects/poker.md?raw';
+import football_md from '$lib/md/projects/football.md?raw';
 
 
 // Import images directly
@@ -25,6 +26,10 @@ import poker_3 from '$lib/assets/projects/poker/poker_3.png';
 import deez_1 from '$lib/assets/projects/deez/deez_1.png';
 import deez_2 from '$lib/assets/projects/deez/deez_2.png';
 import deez_3 from '$lib/assets/projects/deez/deez_3.png';
+
+import football_1 from '$lib/assets/projects/football/football_1.png';
+import football_2 from '$lib/assets/projects/football/football_2.png';
+import football_3 from '$lib/assets/projects/football/football_3.png';
 
 
 export const items: Array<Project> = [
@@ -75,7 +80,7 @@ export const items: Array<Project> = [
 			from: new Date(2024, 4, 10), to: new Date(2024, 4, 20)
 		},
 		skills: getSkills('reactjs', 'ts', 'js', 'tailwind', 'prisma', 'vite', 'trpc', 'drizzle' ),
-		type: 'Website Template',
+		type: 'Social Media',
 		screenshots: [
 			{
 				label: '1',
@@ -92,31 +97,31 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Gazer',
+		slug: 'Sports League',
 		color: '#ff3e00',
-		description: gazer_md,
+		description: football_md,
 		shortDescription:
-		'Semi-Procedural RPG Dungeon Crawler: Infinity',
-		links: [{ to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
-		logo: Assets.Unity,
-		name: 'Gazer',
+		'A sports league platform built with Nuxt.js, Vue, and Tailwind CSS, providing real-time standings, match schedules, and statistics for soccer leagues. It integrates cutting-edge tools like UnoCSS, Chart.js, and Supabase for a smooth and data-driven experience.',
+		links: [{ to: 'https://github.com/mino9421/sports-league-ui', label: 'GitHub' }, { to: 'https://sports-league-ui.vercel.app/', label: 'Vercel' }],
+		logo: Assets.VueJs,
+		name: 'Sports League',
 		period: {
-			from: new Date(2024, 3, 22), to: new Date(2024, 3, 31)
+			from: new Date(2024, 9, 1), to: new Date(2024, 9, 5)
 		},
-		skills: getSkills('unity', 'csharp'),
-		type: 'Website Template',
+		skills: getSkills('vue', 'ts', 'js', 'tailwind', 'prisma', 'vite', 'vite', 'unocss', 'express' ),
+		type: 'Data-Driven Application',
 		screenshots: [
 			{
 				label: '1',
-				src: gazerImg1
+				src: football_1
 			},
 			{
 				label: '2',
-				src: gazerImg2
+				src: football_2
 			},
 			{
 				label: '3',
-				src: gazerImg3
+				src: football_3
 			}
 		]
 	},
@@ -133,7 +138,7 @@ export const items: Array<Project> = [
 			from: new Date(2024, 8, 1), to: new Date(2024, 8, 10)
 		},
 		skills: getSkills('ts', 'vue', 'nuxt', 'tailwind', 'unocss', 'vite', 'vitest'),
-		type: 'Website Template',
+		type: 'Browser-Based Poker Game',
 		screenshots: [
 			{
 				label: '1',
@@ -146,6 +151,35 @@ export const items: Array<Project> = [
 			{
 				label: '3',
 				src: poker_3
+			}
+		]
+	},
+	{
+		slug: 'Gazer',
+		color: '#ff3e00',
+		description: gazer_md,
+		shortDescription:
+		'Semi-Procedural RPG Dungeon Crawler: Infinity',
+		links: [{ to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
+		logo: Assets.Unity,
+		name: 'Gazer',
+		period: {
+			from: new Date(2024, 3, 22), to: new Date(2024, 3, 31)
+		},
+		skills: getSkills('unity', 'csharp'),
+		type: 'Dungeon Crawler Game',
+		screenshots: [
+			{
+				label: '1',
+				src: gazerImg1
+			},
+			{
+				label: '2',
+				src: gazerImg2
+			},
+			{
+				label: '3',
+				src: gazerImg3
 			}
 		]
 	},
