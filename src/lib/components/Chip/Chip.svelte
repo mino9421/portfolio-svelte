@@ -29,6 +29,7 @@
 	on:keydown
 	on:keypress
 	on:keyup
+	target="_blank"
 >
 	<slot />
 </svelte:element>
