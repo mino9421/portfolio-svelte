@@ -160,7 +160,7 @@ export const items: Array<Project> = [
 		description: gazer_md,
 		shortDescription:
 		'Semi-Procedural RPG Dungeon Crawler: Infinity',
-		links: [{ to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
+		links: [{ to: 'https://github.com/GixGosu/DungeonCrawler2024', label: 'GitHub' }, { to: 'https://brineshrimp.itch.io/nightmare-of-the-gazer', label: 'itch.io' }],
 		logo: Assets.Unity,
 		name: 'Gazer',
 		period: {
