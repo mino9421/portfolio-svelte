@@ -62,7 +62,7 @@ export const items: Array<Experience> = [
 		location: 'Toronto',
 		period: { from: new Date(2016, 0, 1), to: new Date(2018, 0, 1) },
 		skills: getSkills(),
-		name: 'Operation Managment',
+		name: 'Operation Management',
 		color: 'green',
 		links: [],
 		logo: Assets.Avante,
