@@ -2,13 +2,14 @@
 	import Carrousel from '$lib/components/Carrousel/Carrousel.svelte';
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
+	import Chip from '$lib/components/Chip/Chip.svelte';
 	import { titleSuffix } from '@data/app';
 	import { links, description, lastName, name, title, skills } from '@data/home';
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
-
+	import { data } from '@data/resume';
 	const isEmail = (email: string): boolean => {
 		const reg =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -40,6 +41,9 @@
 				</a>
 			{/each}
 		</div>
+		<a href={data} download="resume.pdf">
+			<Chip size={'1.25em'}>Download</Chip>
+		</a>
 	</div>
 	<Carrousel items={skills ?? skillsItems} />
 </div>
