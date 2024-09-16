@@ -10,7 +10,7 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download="resume.pdf">
+			<a class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none" href={data} download="resume.pdf">
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
