@@ -41,7 +41,7 @@
 				</a>
 			{/each}
 		</div>
-		<div class="row justify-center md:justify-start>
+		<div class="row justify-center md:justify-start">
 				<a href={data} download="resume.pdf">
 						<Chip size={'1.25em'}>Click To Download Resume</Chip>
 				</a>
