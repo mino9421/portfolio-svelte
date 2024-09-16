@@ -9,7 +9,8 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
-	import { data } from '@data/resume';
+	//import { data } from '@data/resume';
+	import { base } from '$app/paths';
 	const isEmail = (email: string): boolean => {
 		const reg =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -41,9 +42,9 @@
 				</a>
 			{/each}
 		</div>
-		<div class="row justify-center md:justify-start">
-				<a class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none" href={data} download="resume.pdf">
-						<Chip size={'1.25em'}>Click To Download Resume</Chip>
+		<div class="row justify-center md:justify-start">			
+				<a href={`${base}${item.to}`} class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none">
+						<Chip size={'1.25em'}>Go To Resume!</Chip>
 				</a>
 		</div>
 	</div>
