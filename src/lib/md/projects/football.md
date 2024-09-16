@@ -1,6 +1,3 @@
-# Let's write the provided content to a markdown file.
-
-content = """
 # Vue Soccer Web App
 
 ## Overview
