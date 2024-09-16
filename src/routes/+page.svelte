@@ -41,9 +41,11 @@
 				</a>
 			{/each}
 		</div>
-		<a href={data} download="resume.pdf">
-			<Chip size={'1.25em'}>Download</Chip>
-		</a>
+		<div class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none">
+			<a href={data} download="resume.pdf">
+				<Chip size={'1.25em'}>Click To Download Resume</Chip>
+			</a>
+		</div>
 	</div>
 	<Carrousel items={skills ?? skillsItems} />
 </div>
