@@ -1,4 +1,4 @@
-import{A as n}from"./UIcon.af2c4ccf.js";const p=`# JavaScript
+import{A as n}from"./UIcon.8a922b6c.js";const p=`# JavaScript
 
 ## Overview
 JavaScript is a versatile, high-level programming language commonly used for creating interactive and dynamic content on the web. It is an essential technology for web development, running both on the client side (in browsers) and on the server side (with environments like Node.js).
