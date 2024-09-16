@@ -46,6 +46,6 @@
 						<Chip size={'1.25em'}>Click To Download Resume</Chip>
 				</a>
 		</div>
-	
+	</div>
 	<Carrousel items={skills ?? skillsItems} />
 </div>
