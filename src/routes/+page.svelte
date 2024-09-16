@@ -43,7 +43,7 @@
 			{/each}
 		</div>
 		<div class="row justify-center md:justify-start">			
-				<a href={`${base}${item.to}`} class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none">
+				<a href={`${base}$/resume`} class="animate-tada animate-count-infinite animate-duration-1s hover:animate-none">
 						<Chip size={'1.25em'}>Go To Resume!</Chip>
 				</a>
 		</div>
