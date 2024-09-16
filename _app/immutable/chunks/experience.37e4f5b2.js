@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.2410ca50.js";import{g as n}from"./skills.b50b2f92.js";import{C as t}from"./types.1ebf2f37.js";const i=`# Client Project Management at ADP
+import{A as e}from"./UIcon.23902f6c.js";import{g as n}from"./skills.28b74c58.js";import{C as t}from"./types.1ebf2f37.js";const i=`# Client Project Management at ADP
 
 ## Overview
 During my tenure at ADP, I managed the entire client project lifecycle from initial assignment to final deployment and support. I played a crucial role in analyzing client needs, designing solutions, building applications, and ensuring successful delivery and ongoing support.

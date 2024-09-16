@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.2410ca50.js";import{g as n}from"./skills.b50b2f92.js";const t=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
+import{A as e}from"./UIcon.23902f6c.js";import{g as n}from"./skills.28b74c58.js";const t=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
 
 ## Overview
 "Nightmare of the Gazer" is a cosmic horror-themed dungeon crawler RPG developed for the Dungeon Crawler Jam 2024. Set in ancient ruins, the game immerses players in a chilling atmosphere of solitude and dread. With procedurally generated enemies and a rich array of gameplay elements, the game offers endless replayability.
