@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.943449aa.js";import{g as n}from"./skills.3f4f8ec7.js";const t=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
+import{A as e}from"./UIcon.0acc6b5d.js";import{g as n}from"./skills.6c3a4cfc.js";const t=`# Dungeon Crawler Jam 2024: Nightmare of the Gazer
 
 ## Overview
 "Nightmare of the Gazer" is a cosmic horror-themed dungeon crawler RPG developed for the Dungeon Crawler Jam 2024. Set in ancient ruins, the game immerses players in a chilling atmosphere of solitude and dread. With procedurally generated enemies and a rich array of gameplay elements, the game offers endless replayability.
@@ -136,10 +136,7 @@ Developed a poker game simulating Ultimate Texas Hold'em, where players compete 
 ## Impact
 - Showcases proficiency in Vue and Nuxt for game development.
 - Demonstrates the use of Vitest for robust testing and validation of game rules.
-`,o=`# Let's write the provided content to a markdown file.
-
-content = """
-# Vue Soccer Web App
+`,o=`# Vue Soccer Web App
 
 ## Overview
 This web application is designed to provide real-time soccer information, including league standings, match results, and upcoming games. Built using Vue.js and integrating with the Soccer API, the app offers users a seamless experience in browsing data for various soccer leagues. It showcases current, past, and future match results and statistics for each team and league. 
