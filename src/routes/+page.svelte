@@ -40,13 +40,12 @@
 					<Icon icon={getPlatfromIcon(link.platform)} color={'var(--accent-text)'} size={'20px'} />
 				</a>
 			{/each}
-		<a href={data} download="resume.pdf">
-				<Chip size={'1.5em'}>Click To Download Resume</Chip>
-		</a>
 		</div>
-		<a href={data} download="resume.pdf">
-				<Chip size={'1.25em'}>Click To Download Resume</Chip>
-		</a>
+		<div class="row justify-center md:justify-start>
+				<a href={data} download="resume.pdf">
+						<Chip size={'1.25em'}>Click To Download Resume</Chip>
+				</a>
+		</div>
 	</div>
 	<Carrousel items={skills ?? skillsItems} />
 </div>
