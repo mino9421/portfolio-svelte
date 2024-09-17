@@ -78,19 +78,6 @@
 				</div>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
-				<div class="px-10px m-y-5">
-					{#if data.project.description}
-						<Markdown content={data.project.description} />
-					{:else}
-						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
-							<UIcon icon="i-carbon-text-font" classes="text-3.5em" />
-							<p class="font-300">No description</p>
-						</div>
-					{/if}
-				</div>
-				<div class="w-100% m-t-8">
-					<CardDivider />
-				</div>
 				{#if screenshots.length > 0}
 					<div
 						class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
@@ -119,6 +106,22 @@
 						<p class="font-300">No screenshots</p>
 					</div>
 				{/if}
+				<div class="w-100% m-t-8">
+					<CardDivider />
+				</div>
+				<div class="px-10px m-y-5">
+					{#if data.project.description}
+						<Markdown content={data.project.description} />
+					{:else}
+						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
+							<UIcon icon="i-carbon-text-font" classes="text-3.5em" />
+							<p class="font-300">No description</p>
+						</div>
+					{/if}
+				</div>
+				<div class="w-100% m-t-8">
+					<CardDivider />
+				</div>
 			</div>
 		</div>
 	{/if}
