@@ -4,7 +4,8 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
-  import Analytics from '$lib/components/Analytics.svelte'
+  	import Analytics from '$lib/components/Analytics.svelte'
+	import Clarity from '$lib/components/Clarity.svelte'
 
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
@@ -16,6 +17,8 @@
 <div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
 	<NavMenu />
 	<Analytics />
+	<Clarity />
+	<
 	<div class="content container"><slot /></div>
 </div>
 
