@@ -18,7 +18,6 @@
 	<NavMenu />
 	<Analytics />
 	<Clarity />
-	<
 	<div class="content container"><slot /></div>
 </div>
 
